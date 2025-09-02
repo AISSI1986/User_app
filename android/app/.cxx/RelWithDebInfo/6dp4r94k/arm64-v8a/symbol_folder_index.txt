@@ -1,0 +1,1 @@
+/Users/6amtech/projects/sixvalley-user-app/build/app/intermediates/cxx/RelWithDebInfo/6dp4r94k/obj/arm64-v8a

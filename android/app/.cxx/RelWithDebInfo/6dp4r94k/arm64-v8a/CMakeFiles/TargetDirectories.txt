@@ -1,0 +1,2 @@
+/Users/6amtech/projects/sixvalley-user-app/android/app/.cxx/RelWithDebInfo/6dp4r94k/arm64-v8a/CMakeFiles/edit_cache.dir
+/Users/6amtech/projects/sixvalley-user-app/android/app/.cxx/RelWithDebInfo/6dp4r94k/arm64-v8a/CMakeFiles/rebuild_cache.dir

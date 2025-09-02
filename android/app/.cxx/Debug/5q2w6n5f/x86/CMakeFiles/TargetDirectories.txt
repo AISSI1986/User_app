@@ -1,0 +1,2 @@
+E:/UNIVERS_GHANA/SERGE/utilisateur/User app/android/app/.cxx/Debug/5q2w6n5f/x86/CMakeFiles/edit_cache.dir
+E:/UNIVERS_GHANA/SERGE/utilisateur/User app/android/app/.cxx/Debug/5q2w6n5f/x86/CMakeFiles/rebuild_cache.dir

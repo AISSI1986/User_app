@@ -1,0 +1,120 @@
+name: flutter_sixvalley_ecommerce
+description: A new Flutter setup application for starting a project.
+
+publish_to: 'none'
+version: 1.0.0+0
+environment:
+  sdk: '>=3.2.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  get_it: ^7.6.6
+  provider: ^6.0.3
+  connectivity_plus: ^5.0.2
+  dio: ^5.3.4
+  http: ^1.1.1
+  shared_preferences: ^2.5.1
+  flutter_staggered_grid_view: ^0.7.0
+  shimmer: ^3.0.0
+  url_launcher: ^6.2.3
+  image_picker: ^1.0.7
+  share_plus: ^7.2.1
+  photo_view: ^0.14.0
+  firebase_core: 3.11.0
+  firebase_messaging: 15.2.2
+  flutter_local_notifications: ^17.2.2
+  path_provider: ^2.1.2
+  google_sign_in: ^6.2.1
+  flutter_facebook_auth: ^6.0.4
+  flutter_svg: ^2.0.16
+  country_code_picker: ^3.2.0
+  pin_code_fields: ^8.0.1
+  google_maps_flutter: ^2.5.2
+  geocoding: ^2.0.0
+  geolocator: ^10.1.0
+  flutter_typeahead: ^5.2.0
+  marquee: ^2.2.1
+  flutter_rating_bar: ^4.0.0
+  flutter_widget_from_html: ^0.15.3
+  flutter_widget_from_html_core: ^0.15.2
+  fluttertoast: ^8.0.9
+  permission_handler: ^11.1.0
+  flutter_downloader: ^1.11.7
+  flutter_inappwebview: ^6.0.0
+  path: ^1.8.3
+  cached_network_image: ^3.3.1
+  http_parser: ^4.0.2
+  intl: ^0.19.0
+  sign_in_with_apple: ^6.1.0
+  dotted_border: ^2.0.0+3
+  dotted_line: ^3.2.2
+  flutter_slidable: ^4.0.0
+  percent_indicator: ^4.2.3
+  just_the_tooltip: ^0.0.12
+  substring_highlight: ^1.0.33
+  card_swiper: ^3.0.1
+  emoji_picker_flutter: ^3.1.0
+  file_picker: 8.1.4
+  carousel_slider: 5.0.0
+  webview_flutter_android: ^3.13.2
+  webview_flutter_wkwebview: ^3.10.1
+  dropdown_button2: ^2.3.9
+  gradient_borders: ^1.0.0
+  flutter_spinkit: ^5.2.1
+  open_file: ^3.5.10
+  flutter_pdfview: ^1.2.7
+  readmore: ^3.0.0
+  open_file_manager: ^1.0.2
+  audioplayers: ^6.0.0
+  syncfusion_flutter_pdfviewer: ^28.2.4
+  firebase_auth: ^5.3.1
+  flutter_inappwebview_ios: ^1.1.2
+  drift: ^2.21.0
+  drift_flutter: ^0.1.0
+  get_thumbnail_video: ^0.7.3
+  archive: ^4.0.2
+  video_player: ^2.9.2
+  chewie: ^1.8.5
+  syncfusion_flutter_datepicker: ^28.2.4
+  syncfusion_flutter_core: ^28.2.4
+  webview_flutter: ^4.9.0
+  skeletonizer: ^1.4.3
+
+
+dev_dependencies:
+  flutter_lints: ^3.0.1
+  drift_dev: ^2.21.0
+  build_runner: ^2.4.13
+  flutter_launcher_icons: ^0.13.1
+
+  flutter_test:
+    sdk: flutter
+
+flutter_icons:                      
+  android: true
+  ios: true
+  image_path: "assets/images/logo.png"
+  remove_alpha_ios: true
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/language/
+    - assets/svg/
+
+  fonts:
+    - family: SF-Pro-Rounded-Regular
+      fonts:
+        - asset: assets/fonts/ubuntu/SF-Pro-Rounded-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/ubuntu/SF-Pro-Rounded-Regular.ttf
+          weight: 500
+        - asset: assets/fonts/ubuntu/SF-Pro-Rounded-Regular.ttf
+          weight: 600

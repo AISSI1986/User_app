@@ -1,0 +1,25 @@
+name: emoji_picker_flutter_example
+description: Demonstrates how to use the emoji_picker_flutter plugin.
+publish_to: "none"
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+  flutter: ">=3.24.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  google_fonts: ^6.2.1
+  emoji_picker_flutter:
+    path: ../
+
+dev_dependencies:
+  flutter_lints: ^4.0.0
+  integration_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/

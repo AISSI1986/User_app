@@ -1,0 +1,2 @@
+/Users/mobarak/Documents/6amTech/gitHub/6velly/sixvalley-user-app/android/app/.cxx/RelWithDebInfo/492o564t/x86_64/CMakeFiles/edit_cache.dir
+/Users/mobarak/Documents/6amTech/gitHub/6velly/sixvalley-user-app/android/app/.cxx/RelWithDebInfo/492o564t/x86_64/CMakeFiles/rebuild_cache.dir

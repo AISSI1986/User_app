@@ -1,0 +1,2 @@
+/Users/6amtech/projects/sixvalley-user-app/android/app/.cxx/Debug/202s695w/x86/CMakeFiles/edit_cache.dir
+/Users/6amtech/projects/sixvalley-user-app/android/app/.cxx/Debug/202s695w/x86/CMakeFiles/rebuild_cache.dir
