@@ -3,8 +3,8 @@ import Flutter
 import Firebase
 import GoogleMaps
 import flutter_downloader
-import FBSDKCoreKit
-import FBSDKLoginKit
+//import FBSDKCoreKit
+//import FBSDKLoginKit
 
 @main
 @objc class AppDelegate: FlutterAppDelegate {

@@ -24,7 +24,7 @@ import 'package:flutter_sixvalley_ecommerce/features/dashboard/screens/dashboard
 import 'package:provider/provider.dart';
 import 'package:sign_in_with_apple/sign_in_with_apple.dart';
 
-class SocialLoginWidget extends StatefulWidget {
+/*class SocialLoginWidget extends StatefulWidget {
   const SocialLoginWidget({super.key});
 
   @override
@@ -455,4 +455,4 @@ class SocialLoginButtonWidget extends StatelessWidget {
       ),
     );
   }
-}
+}*/

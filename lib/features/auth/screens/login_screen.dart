@@ -84,9 +84,9 @@ class _LoginScreenState extends State<LoginScreen> {
     final LocalizationController localizationProvider = Provider.of<LocalizationController>(context, listen: false);
     // final socialStatus = configModel.customerLogin?.socialMediaLoginOptions;
 
-    if(configModel.customerLogin!.loginOption!.manualLogin == 0 && configModel.customerLogin!.loginOption!.otpLogin == 0) {
+    /*if(configModel.customerLogin!.loginOption!.manualLogin == 0 && configModel.customerLogin!.loginOption!.otpLogin == 0) {
       return OnlySocialLoginWidget(fromLogout: widget.fromLogout);
-    }
+    }*/
     if(configModel.customerLogin!.loginOption!.manualLogin == 0) {
       return OtpLoginScreen(fromLogout: widget.fromLogout);
     }
@@ -119,8 +119,9 @@ class _LoginScreenState extends State<LoginScreen> {
       child: Scaffold(
         body: SafeArea(
           child: Center(child: CustomScrollView(slivers: [
-            (configModel.customerLogin?.loginOption?.manualLogin == 0 && configModel.customerLogin?.loginOption?.otpLogin == 0) ?
-            const OnlySocialLoginWidget()  : SliverToBoxAdapter( // OnlySocialLoginWidget()
+            /*(configModel.customerLogin?.loginOption?.manualLogin == 0 && configModel.customerLogin?.loginOption?.otpLogin == 0) ?
+            const OnlySocialLoginWidget()
+                : */SliverToBoxAdapter( // OnlySocialLoginWidget()
               child: Stack(
                 children: [
                   Positioned(
@@ -138,7 +139,6 @@ class _LoginScreenState extends State<LoginScreen> {
                         },
                       )
                   ),
-
                   Column(children: [
                     Padding(padding: const EdgeInsets.all(Dimensions.paddingSizeLarge),
                       child: Center(
@@ -389,7 +389,7 @@ class _LoginScreenState extends State<LoginScreen> {
                                   const SizedBox(height: Dimensions.paddingSizeLarge),
                                 ],
 
-                                if((configModel.customerLogin?.loginOption?.socialMediaLogin == 1) && configModel.customerLogin?.loginOption?.otpLogin != 1)
+                               /* if((configModel.customerLogin?.loginOption?.socialMediaLogin == 1) && configModel.customerLogin?.loginOption?.otpLogin != 1)
                                   Row(
                                     children: [
                                       Expanded(child: Divider(color: Theme.of(context).hintColor)),
@@ -406,14 +406,14 @@ class _LoginScreenState extends State<LoginScreen> {
                                       const SizedBox(width: Dimensions.paddingSizeSmall),
                                       Expanded(child: Divider(color: Theme.of(context).hintColor)),
                                     ],
-                                  ),
+                                  ),*/
 
                                 if(configModel.customerLogin?.loginOption?.socialMediaLogin == 1)
                                   const SizedBox(height: Dimensions.paddingSizeSmall),
 
 
                                 if(configModel.customerLogin?.loginOption?.socialMediaLogin == 1)
-                                  const Center(child: SocialLoginWidget()),
+                                 // const Center(child: SocialLoginWidget()),
                                 const SizedBox(height: Dimensions.paddingSizeLarge),
 
                                 Row(mainAxisAlignment: MainAxisAlignment.center, children: [

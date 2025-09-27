@@ -122,8 +122,7 @@ Future<void> main() async {
       ChangeNotifierProvider(create: (context) => di.sl<ThemeController>()),
       ChangeNotifierProvider(
           create: (context) => di.sl<GoogleSignInController>()),
-      ChangeNotifierProvider(
-          create: (context) => di.sl<FacebookLoginController>()),
+     // ChangeNotifierProvider(create: (context) => di.sl<FacebookLoginController>()),
       ChangeNotifierProvider(create: (context) => di.sl<AddressController>()),
       ChangeNotifierProvider(create: (context) => di.sl<WalletController>()),
       ChangeNotifierProvider(create: (context) => di.sl<CompareController>()),

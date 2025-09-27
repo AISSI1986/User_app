@@ -233,7 +233,7 @@ class _OtpLoginScreenState extends State<OtpLoginScreen> {
                                 ),
                                 const SizedBox(height: Dimensions.paddingSizeDefault),
 
-                                const Padding(padding: EdgeInsets.symmetric(horizontal: Dimensions.paddingSizeExtraLarge) ,child: SocialLoginWidget()),
+                                //const Padding(padding: EdgeInsets.symmetric(horizontal: Dimensions.paddingSizeExtraLarge) ,child: SocialLoginWidget()),
                                 const SizedBox(height: Dimensions.paddingSizeLarge),
                               ],
 

@@ -67,6 +67,8 @@ post_install do |installer|
         '$(inherited)',
         'AUDIO_SESSION_MICROPHONE=0'
       ]
+      config.build_settings['SWIFT_VERSION'] = '5.0'  # required by simple_permission
+      config.build_settings['ENABLE_BITCODE'] = 'NO'
     end
 
   end

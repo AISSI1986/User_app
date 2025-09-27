@@ -13,6 +13,7 @@ PODS:
     - Flutter
   - audioplayers_darwin (0.0.1):
     - Flutter
+    - FlutterMacOS
   - connectivity_plus (0.0.1):
     - Flutter
     - ReachabilitySwift
@@ -51,14 +52,6 @@ PODS:
     - SwiftyGif
   - emoji_picker_flutter (0.0.1):
     - Flutter
-  - FBAEMKit (17.0.3):
-    - FBSDKCoreKit_Basics (= 17.0.3)
-  - FBSDKCoreKit (17.0.3):
-    - FBAEMKit (= 17.0.3)
-    - FBSDKCoreKit_Basics (= 17.0.3)
-  - FBSDKCoreKit_Basics (17.0.3)
-  - FBSDKLoginKit (17.0.3):
-    - FBSDKCoreKit (= 17.0.3)
   - file_picker (0.0.1):
     - DKImagePickerController/PhotoGallery
     - Flutter
@@ -81,7 +74,7 @@ PODS:
     - Firebase/Messaging (= 11.7.0)
     - firebase_core
     - Flutter
-  - FirebaseAppCheckInterop (11.12.0)
+  - FirebaseAppCheckInterop (11.15.0)
   - FirebaseAuth (11.7.0):
     - FirebaseAppCheckInterop (~> 11.0)
     - FirebaseAuthInterop (~> 11.0)
@@ -91,7 +84,7 @@ PODS:
     - GoogleUtilities/Environment (~> 8.0)
     - GTMSessionFetcher/Core (< 5.0, >= 3.4)
     - RecaptchaInterop (~> 100.0)
-  - FirebaseAuthInterop (11.12.0)
+  - FirebaseAuthInterop (11.15.0)
   - FirebaseCore (11.7.0):
     - FirebaseCoreInternal (~> 11.7.0)
     - GoogleUtilities/Environment (~> 8.0)
@@ -117,9 +110,6 @@ PODS:
   - Flutter (1.0.0)
   - flutter_downloader (0.0.1):
     - Flutter
-  - flutter_facebook_auth (6.2.0):
-    - FBSDKLoginKit (~> 17.0.0)
-    - Flutter
   - flutter_inappwebview_ios (0.0.1):
     - Flutter
     - flutter_inappwebview_ios/Core (= 0.0.1)
@@ -132,8 +122,6 @@ PODS:
   - flutter_local_notifications (0.0.1):
     - Flutter
   - flutter_pdfview (1.0.2):
-    - Flutter
-  - flutter_secure_storage (6.0.0):
     - Flutter
   - fluttertoast (0.0.2):
     - Flutter
@@ -241,9 +229,9 @@ PODS:
   - PromisesObjC (2.4.0)
   - ReachabilitySwift (5.2.4)
   - RecaptchaInterop (100.0.0)
-  - SDWebImage (5.21.0):
-    - SDWebImage/Core (= 5.21.0)
-  - SDWebImage/Core (5.21.0)
+  - SDWebImage (5.21.2):
+    - SDWebImage/Core (= 5.21.2)
+  - SDWebImage/Core (5.21.2)
   - share_plus (0.0.1):
     - Flutter
   - shared_preferences_foundation (0.0.1):
@@ -254,28 +242,31 @@ PODS:
   - sqflite_darwin (0.0.4):
     - Flutter
     - FlutterMacOS
-  - sqlite3 (3.49.1):
-    - sqlite3/common (= 3.49.1)
-  - sqlite3/common (3.49.1)
-  - sqlite3/dbstatvtab (3.49.1):
+  - sqlite3 (3.50.4):
+    - sqlite3/common (= 3.50.4)
+  - sqlite3/common (3.50.4)
+  - sqlite3/dbstatvtab (3.50.4):
     - sqlite3/common
-  - sqlite3/fts5 (3.49.1):
+  - sqlite3/fts5 (3.50.4):
     - sqlite3/common
-  - sqlite3/math (3.49.1):
+  - sqlite3/math (3.50.4):
     - sqlite3/common
-  - sqlite3/perf-threadsafe (3.49.1):
+  - sqlite3/perf-threadsafe (3.50.4):
     - sqlite3/common
-  - sqlite3/rtree (3.49.1):
+  - sqlite3/rtree (3.50.4):
+    - sqlite3/common
+  - sqlite3/session (3.50.4):
     - sqlite3/common
   - sqlite3_flutter_libs (0.0.1):
     - Flutter
     - FlutterMacOS
-    - sqlite3 (~> 3.49.1)
+    - sqlite3 (~> 3.50.4)
     - sqlite3/dbstatvtab
     - sqlite3/fts5
     - sqlite3/math
     - sqlite3/perf-threadsafe
     - sqlite3/rtree
+    - sqlite3/session
   - SwiftyGif (5.4.5)
   - syncfusion_flutter_pdfviewer (0.0.1):
     - Flutter
@@ -292,7 +283,7 @@ PODS:
 
 DEPENDENCIES:
   - audio_session (from `.symlinks/plugins/audio_session/ios`)
-  - audioplayers_darwin (from `.symlinks/plugins/audioplayers_darwin/ios`)
+  - audioplayers_darwin (from `.symlinks/plugins/audioplayers_darwin/darwin`)
   - connectivity_plus (from `.symlinks/plugins/connectivity_plus/ios`)
   - device_info_plus (from `.symlinks/plugins/device_info_plus/ios`)
   - emoji_picker_flutter (from `.symlinks/plugins/emoji_picker_flutter/ios`)
@@ -302,12 +293,10 @@ DEPENDENCIES:
   - firebase_messaging (from `.symlinks/plugins/firebase_messaging/ios`)
   - Flutter (from `Flutter`)
   - flutter_downloader (from `.symlinks/plugins/flutter_downloader/ios`)
-  - flutter_facebook_auth (from `.symlinks/plugins/flutter_facebook_auth/ios`)
   - flutter_inappwebview_ios (from `.symlinks/plugins/flutter_inappwebview_ios/ios`)
   - flutter_keyboard_visibility (from `.symlinks/plugins/flutter_keyboard_visibility/ios`)
   - flutter_local_notifications (from `.symlinks/plugins/flutter_local_notifications/ios`)
   - flutter_pdfview (from `.symlinks/plugins/flutter_pdfview/ios`)
-  - flutter_secure_storage (from `.symlinks/plugins/flutter_secure_storage/ios`)
   - fluttertoast (from `.symlinks/plugins/fluttertoast/ios`)
   - geocoding_ios (from `.symlinks/plugins/geocoding_ios/ios`)
   - geolocator_apple (from `.symlinks/plugins/geolocator_apple/darwin`)
@@ -339,10 +328,6 @@ SPEC REPOS:
     - AppCheckCore
     - DKImagePickerController
     - DKPhotoGallery
-    - FBAEMKit
-    - FBSDKCoreKit
-    - FBSDKCoreKit_Basics
-    - FBSDKLoginKit
     - Firebase
     - FirebaseAppCheckInterop
     - FirebaseAuth
@@ -373,7 +358,7 @@ EXTERNAL SOURCES:
   audio_session:
     :path: ".symlinks/plugins/audio_session/ios"
   audioplayers_darwin:
-    :path: ".symlinks/plugins/audioplayers_darwin/ios"
+    :path: ".symlinks/plugins/audioplayers_darwin/darwin"
   connectivity_plus:
     :path: ".symlinks/plugins/connectivity_plus/ios"
   device_info_plus:
@@ -392,8 +377,6 @@ EXTERNAL SOURCES:
     :path: Flutter
   flutter_downloader:
     :path: ".symlinks/plugins/flutter_downloader/ios"
-  flutter_facebook_auth:
-    :path: ".symlinks/plugins/flutter_facebook_auth/ios"
   flutter_inappwebview_ios:
     :path: ".symlinks/plugins/flutter_inappwebview_ios/ios"
   flutter_keyboard_visibility:
@@ -402,8 +385,6 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/flutter_local_notifications/ios"
   flutter_pdfview:
     :path: ".symlinks/plugins/flutter_pdfview/ios"
-  flutter_secure_storage:
-    :path: ".symlinks/plugins/flutter_secure_storage/ios"
   fluttertoast:
     :path: ".symlinks/plugins/fluttertoast/ios"
   geocoding_ios:
@@ -457,37 +438,31 @@ SPEC CHECKSUMS:
   AppAuth: d4f13a8fe0baf391b2108511793e4b479691fb73
   AppCheckCore: cc8fd0a3a230ddd401f326489c99990b013f0c4f
   audio_session: 9bb7f6c970f21241b19f5a3658097ae459681ba0
-  audioplayers_darwin: ccf9c770ee768abb07e26d90af093f7bab1c12ab
+  audioplayers_darwin: 4f9ca89d92d3d21cec7ec580e78ca888e5fb68bd
   connectivity_plus: 481668c94744c30c53b8895afb39159d1e619bdf
   device_info_plus: 21fcca2080fbcd348be798aa36c3e5ed849eefbe
   DKImagePickerController: 946cec48c7873164274ecc4624d19e3da4c1ef3c
   DKPhotoGallery: b3834fecb755ee09a593d7c9e389d8b5d6deed60
   emoji_picker_flutter: ed468d9746c21711e66b2788880519a9de5de211
-  FBAEMKit: 9900b2edd99a2d21629a6277e6166f14c6215799
-  FBSDKCoreKit: 0791f8f68a8630931a4c12aa23a56cc021551596
-  FBSDKCoreKit_Basics: 46d6b472c0dd0a5a7e972c025033d1c567f54eb4
-  FBSDKLoginKit: b4a4eba1d62eb452544411824f41689adabd5bd2
   file_picker: 9b3292d7c8bc68c8a7bf8eb78f730e49c8efc517
   Firebase: a64bf6a8546e6eab54f1c715cd6151f39d2329f4
   firebase_auth: a1aa0a20e8de111be5b9a5a2ba73201877f9f53d
   firebase_core: 3d36094af9b47c46bfb965943413a39eebaca4db
   firebase_messaging: 5881ea6744fe41f0759bc52844c530d64f3c37e3
-  FirebaseAppCheckInterop: 73b173e5ec45192e2d522ad43f526a82ad10b852
+  FirebaseAppCheckInterop: 06fe5a3799278ae4667e6c432edd86b1030fa3df
   FirebaseAuth: 77e25aa24f3e1c626c5babd3338551fc1669ee0e
-  FirebaseAuthInterop: b583210c039a60ed3f1e48865e1f3da44a796595
+  FirebaseAuthInterop: 7087d7a4ee4bc4de019b2d0c240974ed5d89e2fd
   FirebaseCore: 3227e35f4197a924206fbcdc0349325baf4f5de4
   FirebaseCoreExtension: 206c1b399f0d103055207c16f299b28e3dbd1949
   FirebaseCoreInternal: d6c17dafc8dc33614733a8b52df78fcb4394c881
   FirebaseInstallations: 9347e719c3d52d8d7b9074b2c32407dd027305e9
   FirebaseMessaging: 00ece041b71ddb52a2862ffdee73fb6e9824bd0c
-  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  Flutter: cabc95a1d2626b1b06e7179b784ebcf0c0cde467
   flutter_downloader: 78da0da1084e709cbfd3b723c7ea349c71681f09
-  flutter_facebook_auth: 2f28c889d5727b4538ed8d25be3367092b2cbef7
   flutter_inappwebview_ios: b89ba3482b96fb25e00c967aae065701b66e9b99
   flutter_keyboard_visibility: 4625131e43015dbbe759d9b20daaf77e0e3f6619
   flutter_local_notifications: ad39620c743ea4c15127860f4b5641649a988100
   flutter_pdfview: 32bf27bda6fd85b9dd2c09628a824df5081246cf
-  flutter_secure_storage: 1ed9476fba7e7a782b22888f956cce43e2c62f13
   fluttertoast: 2c67e14dce98bbdb200df9e1acf610d7a6264ea1
   geocoding_ios: 86f1c479822f07a2f79f7094f2b753d1e9e20215
   geolocator_apple: ab36aa0e8b7d7a2d7639b3b4e48308394e8cef5e
@@ -515,20 +490,20 @@ SPEC CHECKSUMS:
   PromisesObjC: f5707f49cb48b9636751c5b2e7d227e43fba9f47
   ReachabilitySwift: 32793e867593cfc1177f5d16491e3a197d2fccda
   RecaptchaInterop: 7d1a4a01a6b2cb1610a47ef3f85f0c411434cb21
-  SDWebImage: f84b0feeb08d2d11e6a9b843cb06d75ebf5b8868
+  SDWebImage: 9f177d83116802728e122410fb25ad88f5c7608a
   share_plus: de6030e33b4e106470e09322d87cf2a4258d2d1d
   shared_preferences_foundation: 9e1978ff2562383bd5676f64ec4e9aa8fa06a6f7
   sign_in_with_apple: c5dcc141574c8c54d5ac99dd2163c0c72ad22418
   sqflite_darwin: 20b2a3a3b70e43edae938624ce550a3cbf66a3d0
-  sqlite3: fc1400008a9b3525f5914ed715a5d1af0b8f4983
-  sqlite3_flutter_libs: f6acaa2172e6bb3e2e70c771661905080e8ebcf2
+  sqlite3: 73513155ec6979715d3904ef53a8d68892d4032b
+  sqlite3_flutter_libs: 83f8e9f5b6554077f1d93119fe20ebaa5f3a9ef1
   SwiftyGif: 706c60cf65fa2bc5ee0313beece843c8eb8194d4
   syncfusion_flutter_pdfviewer: dfb514751af5b6b71e504c9c04a2e4ddbc1dd895
   url_launcher_ios: 694010445543906933d732453a59da0a173ae33d
   video_player_avfoundation: 2cef49524dd1f16c5300b9cd6efd9611ce03639b
   wakelock_plus: e29112ab3ef0b318e58cfa5c32326458be66b556
-  webview_flutter_wkwebview: 1821ceac936eba6f7984d89a9f3bcb4dea99ebb2
+  webview_flutter_wkwebview: 8ebf4fded22593026f7dbff1fbff31ea98573c8d
 
-PODFILE CHECKSUM: a564c9aac87e9a0833864d0a46aadb021f4b2da1
+PODFILE CHECKSUM: ee453c966fd88f9bef71eb42afa39c8124c7555f
 
 COCOAPODS: 1.16.2

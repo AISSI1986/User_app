@@ -20,7 +20,7 @@ import 'package:flutter_sixvalley_ecommerce/utill/images.dart';
 import 'package:provider/provider.dart';
 
 
-class OnlySocialLoginWidget extends StatefulWidget {
+/*class OnlySocialLoginWidget extends StatefulWidget {
   final bool fromLogout;
   const OnlySocialLoginWidget({super.key, this.fromLogout = false});
 
@@ -334,4 +334,4 @@ class _OnlySocialLoginWidgetState extends State<OnlySocialLoginWidget> {
       ),
     );
   }
-}
+}*/

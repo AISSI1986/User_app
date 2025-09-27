@@ -1,4 +1,4 @@
-import 'package:flutter/foundation.dart';
+/*import 'package:flutter/foundation.dart';
 import 'package:flutter_facebook_auth/flutter_facebook_auth.dart';
 
 class FacebookLoginController with ChangeNotifier {
@@ -14,4 +14,4 @@ class FacebookLoginController with ChangeNotifier {
     notifyListeners();
   }
 
-}
+}*/
