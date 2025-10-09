@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "474689965739",
+    "project_id": "promogoapp",
+    "storage_bucket": "promogoapp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:474689965739:android:2785b0d670626b78c871ee",
+        "android_client_info": {
+          "package_name": "com.promogo.user"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCQiGD8U4w7Ka6KN1mxxhwCLvyAQhSZYI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
